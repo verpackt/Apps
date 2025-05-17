@@ -1,3 +1,3 @@
 streamlit
 PyMuPDF
-openai
+openai==0.28
