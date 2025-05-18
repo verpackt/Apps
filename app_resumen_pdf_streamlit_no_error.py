@@ -21,8 +21,7 @@ if openai_api_key:
 
 # Función mejorada para dividir capítulos
 def dividir_por_capitulos(texto):
-    texto = texto.replace("\n", " ").replace("\r", " ").replace("\t", " ").replace("
-", " ")
+    texto = texto.replace("\n", " ").replace("\r", " ").replace("\t", " ").replace("\n", " ")
     texto_normalizado = texto.lower()
 
     # Buscar encabezados comunes
